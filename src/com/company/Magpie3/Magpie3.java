@@ -42,9 +42,29 @@ public class Magpie3
         {
             response = "Say something, please.";
         }
+        else if (findKeyword(statement, "cat") >= 0)
+        {
+            response = "prrrrrrrrrr";
+        }
         else if (findKeyword(statement, "no") >= 0)
         {
             response = "Why so negative?";
+        }
+        else if (findKeyword(statement, "sleep") >= 0)
+        {
+            response = "Get 8 hours!!";
+        }
+        else if (findKeyword(statement, "sports") >= 0)
+        {
+            response = "I hope you won!";
+        }
+        else if (findKeyword(statement, "school") >= 0)
+        {
+            response = "Sounds like your doing well!";
+        }
+        else if (findKeyword(statement, "Mr.Pass") >= 0)
+        {
+            response = "Sounds like a good teacher!";
         }
         else if (findKeyword(statement, "mother") >= 0
         || findKeyword(statement, "father") >= 0
