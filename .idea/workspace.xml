@@ -213,7 +213,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539022381192" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539192548626" />
     <property name="last_opened_file_path" value="C:/ProgramData/isve1901/GitHubDesktop/app-1.4.2/resources/app/git/cmd/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -241,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MagpieRunner2">
+  <component name="RunManager" selected="Application.MagpieRunner4">
     <configuration name="MagpieRunner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Magpie2.MagpieRunner2" />
       <module name="Magpie" />
@@ -262,8 +262,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MagpieRunner3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.MagpieRunner3" />
+    <configuration name="MagpieRunner4" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Magpie4.MagpieRunner4" />
       <module name="Magpie" />
       <extension name="coverage">
         <pattern>
@@ -287,15 +287,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MagpieRunner3" />
+      <item itemvalue="Application.MagpieRunner4" />
       <item itemvalue="Application.MagpieRunner2" />
       <item itemvalue="Application.MagpieRunner3 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MagpieRunner4" />
         <item itemvalue="Application.MagpieRunner2" />
         <item itemvalue="Application.MagpieRunner3 (1)" />
-        <item itemvalue="Application.MagpieRunner3" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -326,11 +326,8 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914287" />
-<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32914287" />
-=======
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
->>>>>>> 27f679ee2f649d59f45d5465f863fee0f096b9f4
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
