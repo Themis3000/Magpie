@@ -60,11 +60,17 @@ public class Magpie4
 			// Look for a two word (you <something> me)
 			// pattern
 			int psn = findKeyword(statement, "you", 0);
+			int psw = findKeyword(statement, "I", 0);
 
 			if (psn >= 0
 					&& findKeyword(statement, "me", psn) >= 0)
 			{
 				response = transformYouMeStatement(statement);
+			}
+			else if(psw >= 0
+						&& findKeyword(statement, "you", psw) >= 0)
+			{
+				response = "Why do you " + statement.substring(2, statement.length() - 4) + " me?";
 			}
 			else
 			{
