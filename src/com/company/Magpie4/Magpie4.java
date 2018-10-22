@@ -99,7 +99,7 @@ public class Magpie4
 		}
 		int psn = findKeyword (statement, "I want to", 0);
 		String restOfStatement = statement.substring(psn + 9).trim();
-		return "Would you really be happy if you had " + restOfStatement + "?";
+		return "Would you really be happy if you had to " + restOfStatement + "?";
 	}
 
 	
