@@ -54,7 +54,22 @@ public class Magpie4
 		{
 			response = transformIWantToStatement(statement);
 		}
-
+		else if (findKeyword(statement, "weather", 0) >=0)
+		{
+			response = "The weather is nice today!";
+		}
+		else if (findKeyword(statement, "school", 0) >=0)
+		{
+			response = "Sounds like you are doing great in school!";
+		}
+		else if (findKeyword(statement, "computer", 0) >=0)
+		{
+			response = "Is your computer new?";
+		}
+		else if (findKeyword(statement, "ceiling", 0) >=0)
+		{
+			response = "I hope it doesn't fall.";
+		}
 		else
 		{
 			// Look for a two word (you <something> me)
